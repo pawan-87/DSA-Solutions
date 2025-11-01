@@ -1,35 +1,43 @@
 class Solution {
-    private void dfs(int currNode, List<List<Integer>> adjList, boolean[] visited, Stack<Integer> st) {
-        visited[currNode] = true;
-        
-        for(int adjNode : adjList.get(currNode)) {
-            if(!visited[adjNode]) {
-                dfs(adjNode, adjList, visited, st);
-            }
-        }
-        
-        st.add(currNode);
-    }
-    
     public ArrayList<Integer> topoSort(int V, int[][] edges) {
         List<List<Integer>> adjList = constructAdjList(V, edges);
+        int[] indegree = calIndegree(V, adjList);
         
         ArrayList<Integer> toposort = new ArrayList<>();
         
-        boolean[] visited = new boolean[V];
-        Stack<Integer> st = new Stack<>();
+        Queue<Integer> bfs = new LinkedList<>();
         
         for(int i = 0; i < V; i++) {
-            if(!visited[i]) {
-                dfs(0, adjList, visited, st);
+            if(indegree[i] == 0) {
+                bfs.add(i);
+            }
+        }
+    
+        while(!bfs.isEmpty()) {
+            int node = bfs.poll();
+            toposort.add(node);
+            
+            for(int adjNode : adjList.get(node)) {
+                indegree[adjNode]--;
+                if(indegree[adjNode] == 0) {
+                    bfs.add(adjNode);
+                }
             }
         }
         
-        while(!st.isEmpty()) {
-            toposort.add(st.pop());
+        return toposort;
+    }
+    
+    private int[] calIndegree(int V, List<List<Integer>> adjList) {
+        int[] indegree = new int[V];
+        
+        for(int u = 0; u < V; u++) {
+            for(int v : adjList.get(u)) {
+                indegree[v]++;
+            }
         }
         
-        return toposort;
+        return indegree;
     }
     
     private List<List<Integer>> constructAdjList(int V, int[][] edges) {
