@@ -1,28 +1,57 @@
 // User function Template for Java
 class Solution {
+    
+    private void dfs(int currNode, List<List<int[]>> adjList, boolean[] visited, Stack<Integer> st) {
+        visited[currNode] = true;
+        
+        for(int[] adjNode : adjList.get(currNode)) {
+            if(!visited[adjNode[0]]) {
+                dfs(adjNode[0], adjList, visited, st);
+            }
+        }
+        
+        st.add(currNode);
+    }
+    
+    private int[] topologicalSort(int V, List<List<int[]>> adjList) {
+        int[] resList = new int[V];
+        
+        boolean[] visited = new boolean[V];
+        Stack<Integer> st = new Stack<>();
+        
+        for(int i = 0; i < V; i++) {
+            if(!visited[i]) {
+                dfs(i, adjList, visited, st);
+            }
+        }
+        
+        for(int i = 0; i < V; i++) {
+            resList[i] = st.pop();
+        }
+        
+        return resList;
+    }
+    
 
     public int[] shortestPath(int V, int E, int[][] edges) {
         List<List<int[]>> adjList = constructAdjList(V, edges);
+        int[] toposort = topologicalSort(V, adjList);
         
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b)-> Integer.compare(a[1], b[1]));
         int[] dist = new int[V];
-        
         Arrays.fill(dist, Integer.MAX_VALUE);
         
-        minHeap.add(new int[]{0, 0});
         dist[0] = 0;
         
         int u, v, dt;
-        while(!minHeap.isEmpty()) {
-            int[] node = minHeap.poll();
-            
-            u = node[0];
-            
-            for(int[] adjNode : adjList.get(u)) {
-                v = adjNode[0]; dt = adjNode[1];
-                if(dist[v] > (dist[u] + dt)) {
-                    dist[v] = (dist[u] + dt);
-                    minHeap.add(new int[]{v, dist[v]});
+        for(int i = 0; i < V; i++) {
+            u = toposort[i];
+            if(dist[u] != Integer.MAX_VALUE) {
+                for(int[] adjNode : adjList.get(u)) {
+                    v = adjNode[0]; dt = adjNode[1];
+                    
+                    if(dist[v] > (dist[u] + dt)) {
+                        dist[v] = (dist[u] + dt);
+                    }
                 }
             }
         }
