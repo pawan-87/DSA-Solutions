@@ -1,69 +1,54 @@
 // User function Template for Java
 
 class Solution {
-
-    private void dfs1(int node, ArrayList<ArrayList<Integer>> adjList, boolean[] visited, Stack<Integer> st) {
+    private static int discTime = 0;
+    
+    private void tarjansUtil(int node, ArrayList<ArrayList<Integer>> adjList, int[] disc, int[] low, boolean[] visited, Stack<Integer> st, ArrayList<ArrayList<Integer>> resList) {
+        st.add(node);
+        disc[node] = low[node] = discTime++;
         visited[node] = true;
         
         for(int adjNode : adjList.get(node)) {
-            if(!visited[adjNode]) {
-                dfs1(adjNode, adjList, visited, st);
+            if(disc[adjNode] == -1) {
+                tarjansUtil(adjNode, adjList, disc, low, visited, st, resList);
+                low[node] = Math.min(low[node], low[adjNode]);
+            } else if(visited[adjNode]) {
+                low[node] = Math.min(low[node], disc[adjNode]);
             }
         }
         
-        st.push(node);
-    }
-    
-    private ArrayList<ArrayList<Integer>> createTransposedGraph(int V, ArrayList<ArrayList<Integer>> adj) {
-        ArrayList<ArrayList<Integer>> adjList = new ArrayList<>();
-        
-        for(int i = 0; i < V; i++) {
-            adjList.add(new ArrayList<>());
-        }
-        
-        for(int node = 0; node < V; node++) {
-            for(int adjNode : adj.get(node)) {
-                adjList.get(adjNode).add(node);
+        if(disc[node] == low[node]) {
+            ArrayList<Integer> res = new ArrayList<>();
+            
+            int tempNode = -1;
+            while(tempNode != node) {
+                tempNode = st.pop();
+                res.add(tempNode);
+                visited[tempNode] = false;
             }
-        }
-        
-        return adjList;
-    }
-    
-    private void dfs2(int node, ArrayList<ArrayList<Integer>> adjList, boolean[] visited, ArrayList<Integer> comp) {
-        visited[node] = true;
-        comp.add(node);
-        
-        for(int adjNode : adjList.get(node)) {
-            if(!visited[adjNode]) {
-                dfs2(adjNode, adjList, visited, comp);
-            }
+            
+            Collections.sort(res);
+            resList.add(res);
         }
     }
     
     public ArrayList<ArrayList<Integer>> tarjans(int V, ArrayList<ArrayList<Integer>> adj) {
-        Stack<Integer> st = new Stack<>();
+        int[] disc = new int[V];
+        int[] low = new int[V];
         boolean[] visited = new boolean[V];
+        Stack<Integer> st = new Stack<>();
         
-        for(int node = 0; node < V; node++) {
-            if(!visited[node]) {
-                dfs1(node, adj, visited, st);
-            }
-        }
-        
-        ArrayList<ArrayList<Integer>> transpodedAdjList = createTransposedGraph(V, adj);
+        Arrays.fill(disc, -1);
+        Arrays.fill(low, -1);
+        Arrays.fill(visited, false);
         
         ArrayList<ArrayList<Integer>> resList = new ArrayList<>();
         
-        Arrays.fill(visited, false);
+        discTime = 0;
         
-        while(!st.isEmpty()) {
-            int node = st.pop();
-            if(!visited[node]) {
-                ArrayList<Integer> currComp = new ArrayList<>();
-                dfs2(node, transpodedAdjList, visited, currComp);
-                Collections.sort(currComp);
-                resList.add(currComp);
+        for(int node = 0; node < V; node++) {
+            if(disc[node] == -1) {
+                tarjansUtil(node, adj, disc, low, visited, st, resList);
             }
         }
         
