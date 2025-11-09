@@ -5,9 +5,9 @@ class Solution {
         }
         
         if(num1 >= num2) {
-            return 1 + countOperationsUtil(num1 - num2, num2);
+            return num1/num2 + countOperationsUtil(num1 % num2, num2);
         } else {
-            return 1 + countOperationsUtil(num1, num2 - num1);
+            return num2/num1 + countOperationsUtil(num1, num2 % num1);
         }
     }
 
@@ -15,3 +15,17 @@ class Solution {
         return countOperationsUtil(num1, num2);
     }
 }
+/**
+            num1 = 8    num = 6
+            num1 = 2    num = 6
+            num1 = 2    num = 4
+            num1 = 2    num = 2
+            num1 = 0    num = 2
+
+
+            num1 = 8    num = 6
+            num1 = 2    num = 6
+            num1 = 2    num = 0
+    
+
+ */
