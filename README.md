@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [2288-count-operations-to-obtain-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/2288-count-operations-to-obtain-zero) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/pawan-87/DSA-Solutions/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bit Manipulation
 |  |
@@ -19,6 +20,7 @@
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/pawan-87/DSA-Solutions/tree/master/2618-maximize-the-minimum-powered-city) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/pawan-87/DSA-Solutions/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/pawan-87/DSA-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -122,4 +124,8 @@
 |  |
 | ------- |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+## Number Theory
+|  |
+| ------- |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/pawan-87/DSA-Solutions/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 <!---LeetCode Topics End-->
