@@ -1,27 +1,33 @@
 class Solution {
     public int intersectionSizeTwo(int[][] intervals) {
-        Arrays.sort(intervals, (a, b)->
-            a[1] == b[1] ? b[0] - a[0] : a[1] - b[1]
-        );
+        Arrays.sort(intervals, new Comparator<int[]>(){
+            public int compare(int[] a, int[] b) {
+                if(a[1] == b[1]) {
+                    return Integer.compare(b[0], a[0]);
+                }
+                return Integer.compare(a[1], b[1]);
+            }
+        });
 
-        int ans = 0;
-        int a = -1, b = -1;
+        int count = 0;
+        int[] currInterval = new int[]{-1, -1};
 
+        int a, b;
         for(int[] interval : intervals) {
-            int left = interval[0];
-            int right = interval[1];
+            a = interval[0];
+            b = interval[1];
 
-            if(left > b) {
-                a = right - 1;
-                b = right;
-                ans += 2;
-            } else if(left > a) {
-                a = b;
-                b = right;
-                ans += 1;
+            if(currInterval[1] < a) {
+                currInterval[0] = b -1;
+                currInterval[1] = b;
+                count += 2;
+            } else if(currInterval[0] < a) {
+                currInterval[0] = currInterval[1];
+                currInterval[1] = b;
+                count += 1;
             }
         }
 
-        return ans;
+        return count;
     }
 }
