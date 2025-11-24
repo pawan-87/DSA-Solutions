@@ -1,68 +1,72 @@
-class Solution {
-    private int findMinWeightedNode(boolean[] mst, int[] dist, int V) {
-        int minValue = Integer.MAX_VALUE;
-        int minNodeIndex = -1;
-        
-        for(int node = 0; node < V; node++) {
-            if(mst[node] == false && dist[node] < minValue) {
-                minValue = dist[node];
-                minNodeIndex = node;
-            }
-        }
-        
-        return minNodeIndex;
-    }
-    
-    public int spanningTree(int V, int[][] edges) {
-        List<List<int[]>> adjList = constructAdjList(V, edges);
-        
-        boolean[] mst = new boolean[V];
-        int[] dist = new int[V];
-        
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        Arrays.fill(mst, false);
-        
-        dist[0] = 0;
-        
-        for(int count = 0; count < V - 1; count++) {
-            int minWeightedNode = findMinWeightedNode(mst, dist, V);
 
-            mst[minWeightedNode] = true;
-            
-            for(int[] adjNode : adjList.get(minWeightedNode)) {
-                int node = adjNode[0];
-                int wt = adjNode[1];
-                if(mst[node] == false && dist[node] > wt) {
-                    dist[node] = wt;
-                }
-            }
-        }
+class DisjoinSet {
+    int[] parent;
+    int[] rank;
+    
+    DisjoinSet(int n) {
+        parent = new int[n + 1];
+        rank = new int[n + 1];
         
-        int sum = 0;
-        for(int i = 0; i < V; i++) {
-            sum += dist[i];
+        for(int i = 0; i <= n; i++) {
+            parent[i] = i;
+            rank[i] = 0;
         }
-        
-        return sum;
     }
     
-    private List<List<int[]>> constructAdjList(int V, int[][] edges) {
-        List<List<int[]>> adjList = new ArrayList<>();
+    private int findParent(int node) {
+        if(node == parent[node]) {
+            return node;
+        }    
+        return parent[node] = findParent(parent[node]);
+    }
+    
+    public int find(int node) {
+        return findParent(node);
+    }
+    
+    public void unionNode(int node1, int node2) {
+        int parent1 = find(node1);
+        int parent2 = find(node2);
         
-        for(int i = 0; i < V; i++) {
-            adjList.add(new ArrayList<>());
+        if(parent1 == parent2) {
+            return;
         }
+        
+        if(rank[parent1] > rank[parent2]) {
+            parent[parent2] = parent1;
+        } else if(rank[parent1] < rank[parent2]) {
+            parent[parent1] = parent2;
+        } else {
+            parent[parent2] = parent1;
+            rank[parent1]++;
+        }
+    }
+}
+
+class Solution {
+    public int spanningTree(int V, int[][] edges) {
+        DisjoinSet dj = new DisjoinSet(V);
+        
+        Arrays.sort(edges, new Comparator<>(){
+            public int compare(int[] edge1, int[] edge2) {
+                return Integer.compare(edge1[2], edge2[2]);
+            }
+        });
+        
+        int minWeight = 0;
         
         int u, v, wt;
         for(int[] edge : edges) {
-            u = edge[0];
-            v = edge[1];
-            wt = edge[2];
+            u = edge[0]; v = edge[1]; wt = edge[2];
             
-            adjList.get(u).add(new int[]{v, wt});
-            adjList.get(v).add(new int[]{u, wt});
+            if(dj.find(u) == dj.find(v)) {
+                continue;
+            }
+            
+            dj.unionNode(u, v);
+            minWeight += wt;
         }
         
-        return adjList;
+        return minWeight;
     }
 }
