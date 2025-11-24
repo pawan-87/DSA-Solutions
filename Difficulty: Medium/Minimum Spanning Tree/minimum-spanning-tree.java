@@ -1,50 +1,53 @@
 class Solution {
-    public int spanningTree(int V, int[][] edges) {
-        ArrayList<ArrayList<int[]>> adjList = constructAdjList(V, edges);
+    private int findMinWeightedNode(boolean[] mst, int[] dist, int V) {
+        int minValue = Integer.MAX_VALUE;
+        int minNodeIndex = -1;
         
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b)-> Integer.compare(a[1], b[1]));
-        boolean[] mst = new boolean[V];
-        int[] val = new int[V];
-        
-        Arrays.fill(val, Integer.MAX_VALUE);
-        
-        int src = 0;
-        
-        minHeap.add(new int[]{src, 0});
-        val[src] = 0;
-        
-        while(!minHeap.isEmpty()) {
-            int[] currNode = minHeap.poll();
-            
-            int node = currNode[0];
-            
-            if(mst[node]) {
-                continue;
+        for(int node = 0; node < V; node++) {
+            if(mst[node] == false && dist[node] < minValue) {
+                minValue = dist[node];
+                minNodeIndex = node;
             }
+        }
+        
+        return minNodeIndex;
+    }
+    
+    public int spanningTree(int V, int[][] edges) {
+        List<List<int[]>> adjList = constructAdjList(V, edges);
+        
+        boolean[] mst = new boolean[V];
+        int[] dist = new int[V];
+        
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        Arrays.fill(mst, false);
+        
+        dist[0] = 0;
+        
+        for(int count = 0; count < V - 1; count++) {
+            int minWeightedNode = findMinWeightedNode(mst, dist, V);
+
+            mst[minWeightedNode] = true;
             
-            mst[node] = true;
-            
-            for(int[] adjNode : adjList.get(node)) {
-                int v = adjNode[0];
+            for(int[] adjNode : adjList.get(minWeightedNode)) {
+                int node = adjNode[0];
                 int wt = adjNode[1];
-                
-                if(mst[v] == false && val[v] >  wt) {
-                    val[v] = wt;
-                    minHeap.add(new int[]{v, val[v]});
+                if(mst[node] == false && dist[node] > wt) {
+                    dist[node] = wt;
                 }
             }
         }
         
         int sum = 0;
-        for(int node = 0; node < V; node++) {
-            sum += val[node];
+        for(int i = 0; i < V; i++) {
+            sum += dist[i];
         }
         
         return sum;
     }
     
-    static ArrayList<ArrayList<int[]>> constructAdjList(int V, int[][] edges) {
-        ArrayList<ArrayList<int[]>> adjList = new ArrayList<>();
+    private List<List<int[]>> constructAdjList(int V, int[][] edges) {
+        List<List<int[]>> adjList = new ArrayList<>();
         
         for(int i = 0; i < V; i++) {
             adjList.add(new ArrayList<>());
@@ -52,7 +55,10 @@ class Solution {
         
         int u, v, wt;
         for(int[] edge : edges) {
-            u = edge[0]; v = edge[1]; wt = edge[2];
+            u = edge[0];
+            v = edge[1];
+            wt = edge[2];
+            
             adjList.get(u).add(new int[]{v, wt});
             adjList.get(v).add(new int[]{u, wt});
         }
