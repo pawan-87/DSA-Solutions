@@ -30,6 +30,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/pawan-87/DSA-Solutions/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1590-make-sum-divisible-by-p](https://github.com/pawan-87/DSA-Solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/pawan-87/DSA-Solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -115,6 +116,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/pawan-87/DSA-Solutions/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/pawan-87/DSA-Solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -138,6 +140,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Binary Search
 |  |
 | ------- |
+| [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/pawan-87/DSA-Solutions/tree/master/2618-maximize-the-minimum-powered-city) |
 ## Queue
 |  |
@@ -179,6 +182,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/pawan-87/DSA-Solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Tree
 |  |
