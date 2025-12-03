@@ -13,6 +13,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bit Manipulation
 |  |
@@ -45,6 +46,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
@@ -58,6 +60,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
 ## Linked List
@@ -195,4 +198,5 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 <!---LeetCode Topics End-->
