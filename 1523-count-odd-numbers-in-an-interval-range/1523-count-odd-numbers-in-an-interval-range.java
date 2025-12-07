@@ -9,10 +9,22 @@ class Solution {
             low += 2;
         }
 
-        for(int num = low; num <= high; num += 2) {
-            count++;
+        if(low > high) {
+            return count;
         }
 
-        return count;
+        int rem = ((high - low)/2) + 1;
+        
+        return count + rem;
     }
 }
+/**
+
+    count = 1
+
+    low = 9
+    high = 10
+
+    
+
+ */
