@@ -10,6 +10,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/pawan-87/DSA-Solutions/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/pawan-87/DSA-Solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1925-count-square-sum-triples](https://github.com/pawan-87/DSA-Solutions/tree/master/1925-count-square-sum-triples) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/pawan-87/DSA-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2288-count-operations-to-obtain-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/2288-count-operations-to-obtain-zero) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/pawan-87/DSA-Solutions/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -123,6 +124,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/pawan-87/DSA-Solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/pawan-87/DSA-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2211-count-collisions-on-a-road](https://github.com/pawan-87/DSA-Solutions/tree/master/2211-count-collisions-on-a-road) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/pawan-87/DSA-Solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/pawan-87/DSA-Solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -134,6 +136,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/pawan-87/DSA-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Greedy
