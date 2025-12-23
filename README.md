@@ -42,6 +42,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/pawan-87/DSA-Solutions/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1590-make-sum-divisible-by-p](https://github.com/pawan-87/DSA-Solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/pawan-87/DSA-Solutions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/pawan-87/DSA-Solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -151,6 +152,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/pawan-87/DSA-Solutions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/pawan-87/DSA-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -178,6 +180,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
@@ -188,6 +191,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Binary Search
 |  |
 | ------- |
+| [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/pawan-87/DSA-Solutions/tree/master/2618-maximize-the-minimum-powered-city) |
 ## Queue
@@ -236,6 +240,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
+| [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2092-find-all-people-with-secret](https://github.com/pawan-87/DSA-Solutions/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/pawan-87/DSA-Solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
