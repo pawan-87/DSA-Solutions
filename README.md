@@ -52,6 +52,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1590-make-sum-divisible-by-p](https://github.com/pawan-87/DSA-Solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/pawan-87/DSA-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/pawan-87/DSA-Solutions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -142,6 +143,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0840-magic-squares-in-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/pawan-87/DSA-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/pawan-87/DSA-Solutions/tree/master/2625-increment-submatrices-by-one) |
@@ -191,6 +193,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1975-maximum-matrix-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/pawan-87/DSA-Solutions/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3074-apple-redistribution-into-boxes](https://github.com/pawan-87/DSA-Solutions/tree/master/3074-apple-redistribution-into-boxes) |
