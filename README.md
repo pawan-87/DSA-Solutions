@@ -30,6 +30,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/pawan-87/DSA-Solutions/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Array
@@ -115,6 +116,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0261-graph-valid-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/0261-graph-valid-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/pawan-87/DSA-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/pawan-87/DSA-Solutions/tree/master/2092-find-all-people-with-secret) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/pawan-87/DSA-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -125,6 +127,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0261-graph-valid-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/0261-graph-valid-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/pawan-87/DSA-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/pawan-87/DSA-Solutions/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
@@ -183,6 +186,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/pawan-87/DSA-Solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
@@ -229,6 +233,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/pawan-87/DSA-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2054-two-best-non-overlapping-events](https://github.com/pawan-87/DSA-Solutions/tree/master/2054-two-best-non-overlapping-events) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/pawan-87/DSA-Solutions/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -295,6 +300,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/pawan-87/DSA-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/pawan-87/DSA-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Geometry
@@ -323,4 +329,8 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+## Design
+|  |
+| ------- |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 <!---LeetCode Topics End-->
