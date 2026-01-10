@@ -1,37 +1,50 @@
 class Solution {
-    int[][] T;
-    Set<Long> seen;
 
-    public boolean pyramidTransition(String bottom, List<String> allowed) {
-        T = new int[7][7];
-        for (String a: allowed)
-            T[a.charAt(0) - 'A'][a.charAt(1) - 'A'] |= 1 << (a.charAt(2) - 'A');
+    Map<String, Boolean> memo;
 
-        seen = new HashSet();
-        int N = bottom.length();
-        int[][] A = new int[N][N];
-        int t = 0;
-        for (char c: bottom.toCharArray())
-            A[N-1][t++] = c - 'A';
-        return solve(A, 0, N-1, 0);
-    }
-
-    public boolean solve(int[][] A, long R, int N, int i) {
-        if (N == 1 && i == 1) {
+    private boolean buildPayramid(int index, StringBuilder newStr, String bottom, Map<String, List<Character>> allowedStr, int n) {
+        if(n == 1) {
             return true;
-        } else if (i == N) {
-            if (seen.contains(R)) {
-                return false;
+        }
+
+        if(index == n-1) {
+            if(memo.containsKey(newStr.toString())) {
+                return memo.get(newStr.toString());
             }
-            seen.add(R);
-            return solve(A, 0, N-1, 0);
-        } else {
-            int w = T[A[N][i]][A[N][i+1]];
-            for (int b = 0; b < 7; ++b) if (((w >> b) & 1) != 0) {
-                A[N-1][i] = b;
-                if (solve(A, R * 8 + (b+1), N, i+1)) return true;
-            }
+
+            memo.put(newStr.toString(), buildPayramid(0, new StringBuilder(), newStr.toString(), allowedStr, n - 1));
+
+            return memo.get(newStr.toString());
+        }
+
+        String tempStr = bottom.substring(index, index + 2);
+
+        if(!allowedStr.containsKey(tempStr)) {
             return false;
         }
+
+        for(char ch : allowedStr.get(tempStr)) {
+            StringBuilder nextStr = new StringBuilder(newStr).append(ch);
+            if(buildPayramid(index + 1, nextStr, bottom, allowedStr, n)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    public boolean pyramidTransition(String bottom, List<String> allowed) {
+        Map<String, List<Character>> mp = new HashMap<>();
+
+        for(String str : allowed) {
+            String tempStr = str.substring(0, 2);
+            mp.putIfAbsent(tempStr, new ArrayList<>());
+            mp.get(tempStr).add(str.charAt(2));
+        }
+
+        memo = new HashMap<>();
+
+        return buildPayramid(0, new StringBuilder(), bottom, mp, bottom.length());
     }
 }
