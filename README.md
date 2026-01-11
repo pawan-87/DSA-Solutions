@@ -38,6 +38,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0066-plus-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0066-plus-one) |
 | [0084-largest-rectangle-in-histogram](https://github.com/pawan-87/DSA-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/pawan-87/DSA-Solutions/tree/master/0717-1-bit-and-2-bit-characters) |
@@ -152,6 +153,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Matrix
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
 | [0840-magic-squares-in-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -189,6 +191,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/pawan-87/DSA-Solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -270,12 +273,14 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/pawan-87/DSA-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [2211-count-collisions-on-a-road](https://github.com/pawan-87/DSA-Solutions/tree/master/2211-count-collisions-on-a-road) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/pawan-87/DSA-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Number Theory
 |  |
