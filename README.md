@@ -7,6 +7,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0066-plus-one) |
+| [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
 | [0840-magic-squares-in-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1266-minimum-time-visiting-all-points](https://github.com/pawan-87/DSA-Solutions/tree/master/1266-minimum-time-visiting-all-points) |
@@ -29,6 +30,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/pawan-87/DSA-Solutions/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
@@ -354,4 +356,8 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
