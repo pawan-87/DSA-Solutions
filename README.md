@@ -8,6 +8,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0066-plus-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0066-plus-one) |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0504-base-7](https://github.com/pawan-87/DSA-Solutions/tree/master/0504-base-7) |
 | [0840-magic-squares-in-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/0840-magic-squares-in-grid) |
@@ -35,6 +36,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0190-reverse-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/pawan-87/DSA-Solutions/tree/master/1018-binary-prefix-divisible-by-5) |
