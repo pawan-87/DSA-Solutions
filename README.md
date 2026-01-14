@@ -39,6 +39,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0191-number-of-1-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/pawan-87/DSA-Solutions/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
@@ -209,6 +210,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
+| [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/pawan-87/DSA-Solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
