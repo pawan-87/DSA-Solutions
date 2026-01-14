@@ -41,6 +41,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0191-number-of-1-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/pawan-87/DSA-Solutions/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
@@ -58,6 +59,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0136-single-number](https://github.com/pawan-87/DSA-Solutions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/0137-single-number-ii) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
+| [0260-single-number-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0260-single-number-iii) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/pawan-87/DSA-Solutions/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
