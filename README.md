@@ -34,6 +34,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/pawan-87/DSA-Solutions/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/pawan-87/DSA-Solutions/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/pawan-87/DSA-Solutions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/0137-single-number-ii) |
@@ -55,6 +56,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0066-plus-one) |
+| [0078-subsets](https://github.com/pawan-87/DSA-Solutions/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/pawan-87/DSA-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0136-single-number](https://github.com/pawan-87/DSA-Solutions/tree/master/0136-single-number) |
@@ -366,6 +368,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/pawan-87/DSA-Solutions/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/pawan-87/DSA-Solutions/tree/master/0089-gray-code) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 ## Binary Tree
