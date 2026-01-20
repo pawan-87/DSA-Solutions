@@ -52,6 +52,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/pawan-87/DSA-Solutions/tree/master/2220-minimum-bit-flips-to-convert-number) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Array
 |  |
@@ -100,6 +101,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3074-apple-redistribution-into-boxes](https://github.com/pawan-87/DSA-Solutions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/pawan-87/DSA-Solutions/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/pawan-87/DSA-Solutions/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/pawan-87/DSA-Solutions/tree/master/3433-count-mentions-per-user) |
