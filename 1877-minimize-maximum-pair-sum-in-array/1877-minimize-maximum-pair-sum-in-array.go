@@ -1,7 +1,7 @@
 func minPairSum(nums []int) int {
     n := len(nums)
 
-    sort.Ints(nums)
+    slices.Sort(nums)
 
     minimizedMaximumPairSum := 0;
 
