@@ -126,6 +126,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3637-trionic-array-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3637-trionic-array-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3719-longest-balanced-subarray-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
@@ -148,6 +149,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3719-longest-balanced-subarray-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3719-longest-balanced-subarray-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/pawan-87/DSA-Solutions/tree/master/3863-power-grid-maintenance) |
 ## Linked List
@@ -325,6 +327,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/pawan-87/DSA-Solutions/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3719-longest-balanced-subarray-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3719-longest-balanced-subarray-i) |
 ## Memoization
 |  |
 | ------- |
@@ -435,6 +438,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0190-reverse-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0191-number-of-1-bits) |
 | [1382-balance-a-binary-search-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1382-balance-a-binary-search-tree) |
+| [3719-longest-balanced-subarray-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3719-longest-balanced-subarray-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -453,4 +457,8 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [1382-balance-a-binary-search-tree](https://github.com/pawan-87/DSA-Solutions/tree/master/1382-balance-a-binary-search-tree) |
+## Segment Tree
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/pawan-87/DSA-Solutions/tree/master/3719-longest-balanced-subarray-i) |
 <!---LeetCode Topics End-->
