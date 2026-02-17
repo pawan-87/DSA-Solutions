@@ -46,6 +46,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0260-single-number-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
+| [0401-binary-watch](https://github.com/pawan-87/DSA-Solutions/tree/master/0401-binary-watch) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/pawan-87/DSA-Solutions/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -426,6 +427,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0078-subsets](https://github.com/pawan-87/DSA-Solutions/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/pawan-87/DSA-Solutions/tree/master/0089-gray-code) |
+| [0401-binary-watch](https://github.com/pawan-87/DSA-Solutions/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/0756-pyramid-transition-matrix) |
 ## Binary Tree
 |  |
