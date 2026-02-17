@@ -1,51 +1,32 @@
 class Solution {
 
-    int[][] memo;
-
-    private int minDistanceUtil(int i, int j, String word1, String word2) {
-        if(i == word1.length() || j == word2.length()) {
-            int operations = 0;
-
-            while(i < word1.length()) {
-                operations++;
-                i++;
-            }
-            while(j < word2.length()) {
-                operations++;
-                j++;
-            }
-
-            return operations;
-        }
-
-        if(memo[i][j] != -1) {
-            return memo[i][j];
-        }
-
-        if(word1.charAt(i) == word2.charAt(j)) {
-            return memo[i][j] = minDistanceUtil(i + 1, j + 1, word1, word2);
-        } else {
-            int opt1 = Math.min(
-                minDistanceUtil(i, j + 1, word1, word2),
-                minDistanceUtil(i + 1, j, word1, word2)
-            );
-
-            int opt2 = minDistanceUtil(i + 1, j + 1, word1, word2);
-
-            return memo[i][j] = (1 + Math.min(opt1, opt2));
-        }
-    }
-
-    public int minDistance(String word1, String word2) {
+    public static int minDistance(String word1, String  word2) {
         int n = word1.length();
         int m = word2.length();
 
-        memo = new int[n][m];
+        int[][] dp = new int[n + 1][m + 1];
 
-        for(int i = 0; i < n; i++) {
-            Arrays.fill(memo[i], -1);
+        dp[0][0] = 0;
+
+        for(int j = 1; j <= m; j++) {
+            dp[0][j] = j;
+        }
+        for(int i = 1; i <= n; i++) {
+            dp[i][0] = i;
         }
 
-        return minDistanceUtil(0, 0, word1, word2);
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(word1.charAt(i - 1) != word2.charAt(j - 1)) {
+                    int opt1 = Math.min(dp[i - 1][j], dp[i][j - 1]);
+                    int opt2 = dp[i - 1][j - 1];
+                    dp[i][j] = 1 + Math.min(opt1, opt2);
+                } else {
+                    dp[i][j] = dp[i - 1][j - 1];
+                }
+            }
+        }
+
+        return dp[n][m];
     }
 }
