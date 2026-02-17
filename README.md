@@ -222,6 +222,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/pawan-87/DSA-Solutions/tree/master/0072-edit-distance) |
 | [0316-remove-duplicate-letters](https://github.com/pawan-87/DSA-Solutions/tree/master/0316-remove-duplicate-letters) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
@@ -244,6 +245,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Dynamic Programming
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/pawan-87/DSA-Solutions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/0300-longest-increasing-subsequence) |
