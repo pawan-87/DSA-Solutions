@@ -69,6 +69,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0260-single-number-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0260-single-number-iii) |
 | [0300-longest-increasing-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0422-valid-word-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0422-valid-word-square) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/pawan-87/DSA-Solutions/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/pawan-87/DSA-Solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -202,6 +203,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | ------- |
 | [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
+| [0422-valid-word-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0422-valid-word-square) |
 | [0840-magic-squares-in-grid](https://github.com/pawan-87/DSA-Solutions/tree/master/0840-magic-squares-in-grid) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pawan-87/DSA-Solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/pawan-87/DSA-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
