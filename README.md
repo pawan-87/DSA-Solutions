@@ -9,6 +9,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0066-plus-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0066-plus-one) |
 | [0089-gray-code](https://github.com/pawan-87/DSA-Solutions/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0233-number-of-digit-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0233-number-of-digit-one) |
 | [0371-sum-of-two-integers](https://github.com/pawan-87/DSA-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/pawan-87/DSA-Solutions/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0504-base-7](https://github.com/pawan-87/DSA-Solutions/tree/master/0504-base-7) |
@@ -255,6 +256,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0072-edit-distance](https://github.com/pawan-87/DSA-Solutions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/pawan-87/DSA-Solutions/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0221-maximal-square) |
+| [0233-number-of-digit-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0233-number-of-digit-one) |
 | [0300-longest-increasing-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -449,6 +451,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0231-power-of-two) |
+| [0233-number-of-digit-one](https://github.com/pawan-87/DSA-Solutions/tree/master/0233-number-of-digit-one) |
 ## Divide and Conquer
 |  |
 | ------- |
