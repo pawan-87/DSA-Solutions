@@ -55,6 +55,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/pawan-87/DSA-Solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/pawan-87/DSA-Solutions/tree/master/0868-binary-gap) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/pawan-87/DSA-Solutions/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/pawan-87/DSA-Solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/pawan-87/DSA-Solutions/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/pawan-87/DSA-Solutions/tree/master/2220-minimum-bit-flips-to-convert-number) |
@@ -221,6 +222,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Simulation
 |  |
 | ------- |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/pawan-87/DSA-Solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [2211-count-collisions-on-a-road](https://github.com/pawan-87/DSA-Solutions/tree/master/2211-count-collisions-on-a-road) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/pawan-87/DSA-Solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/pawan-87/DSA-Solutions/tree/master/2288-count-operations-to-obtain-zero) |
@@ -242,6 +244,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1143-longest-common-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/1143-longest-common-subsequence) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/pawan-87/DSA-Solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/pawan-87/DSA-Solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/pawan-87/DSA-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/pawan-87/DSA-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
