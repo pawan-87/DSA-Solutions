@@ -1,25 +1,33 @@
 class Solution {
-    private StringBuilder insertStr(StringBuilder str) {
-        StringBuilder sb = new StringBuilder();
-
-        for(int i = 0; i < str.length(); i++) {
-            sb.append(str.charAt(i) == '1' ? '0' : '1');
-        }
-
-        return sb;
-    }
-
     public char findKthBit(int n, int k) {
-        StringBuilder snStr = new StringBuilder();
-
-        snStr.append("0");
-
-        for(int num = 1; num <= n; num++) {
-            StringBuilder invertedStr = insertStr(snStr);
-            snStr.append("1");
-            snStr.append(invertedStr.reverse());
+        if(n == 1) {
+            return '0';
         }
 
-        return snStr.charAt(k - 1);
+        int snLen = (1 << n) - 1;
+
+        int mid = (snLen / 2) + 1;
+
+        if(mid == k) {
+            return '1';
+        }
+
+        if(k < mid) {
+            return findKthBit(n - 1, k);
+        }
+
+        return findKthBit(n - 1, (snLen - k) + 1) == '0' ? '1' : '0';
     }
 }
+/**
+
+    0                   1
+    011                 3
+    011 1 001             7
+    011100110110001     15
+                        31
+
+
+
+
+ */
