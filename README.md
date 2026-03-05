@@ -75,6 +75,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0300-longest-increasing-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0422-valid-word-square](https://github.com/pawan-87/DSA-Solutions/tree/master/0422-valid-word-square) |
+| [0435-non-overlapping-intervals](https://github.com/pawan-87/DSA-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/pawan-87/DSA-Solutions/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/pawan-87/DSA-Solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -270,6 +271,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [0300-longest-increasing-subsequence](https://github.com/pawan-87/DSA-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/pawan-87/DSA-Solutions/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/pawan-87/DSA-Solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/pawan-87/DSA-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/pawan-87/DSA-Solutions/tree/master/0474-ones-and-zeroes) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/pawan-87/DSA-Solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/pawan-87/DSA-Solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -289,6 +291,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/pawan-87/DSA-Solutions/tree/master/0316-remove-duplicate-letters) |
+| [0435-non-overlapping-intervals](https://github.com/pawan-87/DSA-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/pawan-87/DSA-Solutions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -393,6 +396,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 ## Sorting
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/pawan-87/DSA-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0759-set-intersection-size-at-least-two](https://github.com/pawan-87/DSA-Solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [1200-minimum-absolute-difference](https://github.com/pawan-87/DSA-Solutions/tree/master/1200-minimum-absolute-difference) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/pawan-87/DSA-Solutions/tree/master/1262-greatest-sum-divisible-by-three) |
