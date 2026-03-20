@@ -130,6 +130,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/pawan-87/DSA-Solutions/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/pawan-87/DSA-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/pawan-87/DSA-Solutions/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/pawan-87/DSA-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/pawan-87/DSA-Solutions/tree/master/3583-count-special-triplets) |
@@ -225,6 +226,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/pawan-87/DSA-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/pawan-87/DSA-Solutions/tree/master/2625-increment-submatrices-by-one) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/pawan-87/DSA-Solutions/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/pawan-87/DSA-Solutions/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 ## Simulation
 |  |
 | ------- |
@@ -429,6 +431,7 @@ The code in this repository was uploaded using [LeetHub v2](https://chromewebsto
 | [3075-maximize-happiness-of-selected-children](https://github.com/pawan-87/DSA-Solutions/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3433-count-mentions-per-user](https://github.com/pawan-87/DSA-Solutions/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/pawan-87/DSA-Solutions/tree/master/3531-count-covered-buildings) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/pawan-87/DSA-Solutions/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3606-coupon-code-validator](https://github.com/pawan-87/DSA-Solutions/tree/master/3606-coupon-code-validator) |
 ## Tree
 |  |
