@@ -5,12 +5,7 @@ class Solution {
         if(n == 1) {
             return 0;
         }
-
-        for(int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-
+        
         Arrays.sort(arr);
 
         int minAbsVal = Integer.MAX_VALUE;
